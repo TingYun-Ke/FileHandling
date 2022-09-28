@@ -65,7 +65,7 @@
             this.label1.Font = new System.Drawing.Font("新細明體", 8F);
             this.label1.Location = new System.Drawing.Point(49, 82);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(46, 16);
+            this.label1.Size = new System.Drawing.Size(45, 16);
             this.label1.TabIndex = 2;
             this.label1.Text = "label1";
             // 
@@ -75,7 +75,7 @@
             this.label2.Font = new System.Drawing.Font("新細明體", 8F);
             this.label2.Location = new System.Drawing.Point(49, 128);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(46, 16);
+            this.label2.Size = new System.Drawing.Size(45, 16);
             this.label2.TabIndex = 2;
             this.label2.Text = "label1";
             // 
@@ -87,6 +87,7 @@
             this.listBox1.Name = "listBox1";
             this.listBox1.Size = new System.Drawing.Size(721, 274);
             this.listBox1.TabIndex = 3;
+            this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
             // textBox2
             // 
@@ -95,6 +96,7 @@
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(331, 31);
             this.textBox2.TabIndex = 4;
+            this.textBox2.TextChanged += new System.EventHandler(this.textBox2_TextChanged);
             // 
             // textBox3
             // 
